@@ -2,4 +2,5 @@
 #### ⏳ Useful websites
 
 Websites:
- - ```clicker```
+ - ```Clicker```
+ - ```DataGenerator```

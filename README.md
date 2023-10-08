@@ -3,4 +3,3 @@
 
 Websites:
  - ```Clicker```
- - ```DataGenerator```

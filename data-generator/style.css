@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+#main-section {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: rgb(0,0,0);
+    background-image: linear-gradient(150deg, #0400ff -400%, #000001 50%, #008f07 400%);
+}
+
+#title {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin: 10px;
+    display: none;
+}
+
+#data-box {
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    background-color: rgba(37, 37, 37, 0.15);
+    border: solid 2px rgba(37, 37, 37, 0.1);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.info-text {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.info-input {
+    color: gray;
+    width: 300px;
+    height: 25px;
+    background-color: #282828;
+    border: 0;
+    box-shadow: #303030 0 0 1px 2px;
+    border-radius: 2px;
+    outline: 2px solid #1f1f1f;
+    transition: all 0.5s;
+}
+
+.info-input:focus {
+    outline: 2px solid #156100;
+}
+
+#nationality-text {
+    margin: 20px;
+}
+
+#nationality-input {
+    margin-left: 20px;
+}
+
+#gender-text {
+    margin: 20px;
+}
+
+#gender-input {
+    margin-left: 20px;
+}
+
+#age-text {
+    margin: 20px;
+}
+
+#age-input {
+    margin-left: 20px;
+}
+
+#generate-button {
+    cursor: pointer;
+    position: absolute;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 150px;
+    height: 40px;
+    margin-top: 70px;
+    margin-left: -225px;
+    background-color: #156100;
+    border-radius: 5px;
+    text-align: center;
+    outline: 0;
+    border: 0;
+    font-size: 17px;
+    transition: all 1s;
+}
+
+#generate-button:hover {
+    background-color: #24a600;
+    box-shadow: #24a600 0 0 10px 1px;
+}
+
+#line {
+    position: absolute;
+    width: 2px;
+    height: 400px;
+    margin-top: -270px;
+    margin-left: 400px;
+    background-color: #156100;
+}
+
+#be-anonymous-img {
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 20px;
+}
+
+#results-box {
+    position: absolute;
+    display: none;
+    width: 800px;
+    height: 500px;
+    background-color: rgba(37, 37, 37, 0.15);
+    border: solid 2px rgba(37, 37, 37, 0.1);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#results-text {
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+}

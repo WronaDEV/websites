@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Generator</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="main-section">
+        <p id="title">Data Generator</p>
+        <div id="data-box">
+            <p class="info-text" id="nationality-text">Nationality</p>
+            <input class="info-input" id="nationality-input" placeholder="Country...">
+            <p class="info-text" id="gender-text">Gender</p>
+            <select class="info-input" id="gender-input">
+                <option>Random</option>
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+            <p class="info-text" id="age-text">Age</p>
+            <input class="info-input" id="age-input" placeholder="Random [1-99]">
+            <button id="generate-button" onclick="GenerateData()">Generate</button>
+            <div id="line"></div>
+            <img src="assets/be-anonymous.png" id="be-anonymous-img">
+        </div>
+        <div id="results-box">
+            <p id="results-text">Results</p>
+            <p>Name</p>
+            <p>Last name</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

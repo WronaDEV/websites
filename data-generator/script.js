@@ -24,4 +24,8 @@ const pl_m_lname = [
 function GenerateData() {
     document.getElementById("data-box").style.display = "none";
     document.getElementById("results-box").style.display = "block";
+    const isFemale = false;
+    const randomName = isFemale ? sampleNamesFemale[Math.floor(Math.random() * sampleNamesFemale.length)] : pl_m_name[Math.floor(Math.random() * pl_m_name.length)];
+    const randomLastName = isFemale ? sampleLastNamesFemale[Math.floor(Math.random() * sampleLastNamesFemale.length)] : pl_m_lname[Math.floor(Math.random() * pl_m_lname.length)];
+    console.log(randomName + " " + randomLastName);
 }

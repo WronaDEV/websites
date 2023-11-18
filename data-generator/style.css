@@ -128,7 +128,12 @@ body {
 }
 
 #results-text {
+    width: 760px;
+    background-color: #161616;
+    border-radius: 10px;
+    border: solid 3px black;
     color: white;
+    padding-left: 10px;
     font-size: 30px;
     margin: 10px;
     font-family: 'Roboto', sans-serif;

@@ -22,6 +22,7 @@ const pl_m_lname = [
 ];
 
 function GenerateData() {
+    var gender = document.getElementById("gender-input")[0].value;
     document.getElementById("data-box").style.display = "none";
     document.getElementById("results-box").style.display = "block";
     const isFemale = false;
@@ -29,6 +30,9 @@ function GenerateData() {
     const randomLastName = isFemale ? sampleLastNamesFemale[Math.floor(Math.random() * sampleLastNamesFemale.length)] : pl_m_lname[Math.floor(Math.random() * pl_m_lname.length)];
     console.log(randomName + " " + randomLastName);
     document.getElementById("results-box").style.display = "block";
+    //if (gender.value == random) {
+    //    alert("Random Age...");
+    //}
     document.getElementById("generated-name").textContent = pl_m_name[Math.floor((Math.random()*pl_m_name.length))];
     document.getElementById("generated-last-name").textContent = pl_m_lname[Math.floor((Math.random()*pl_m_name.length))];
     document.getElementById("generated-age").textContent = Math.floor((Math.random()*99));

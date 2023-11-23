@@ -140,7 +140,7 @@ body {
 }
 
 #results-name {
-    width: 200px;
+    width: 300px;
     height: 100px;
     background-color: #121212;
     margin-left: 15px;
@@ -158,14 +158,14 @@ body {
     position: absolute;
     margin-top: 50px;
     background-color: black;
-    width: 165px;
+    width: 265px;
     height: 25px;
     padding: 7px;
     margin-left: 10px;
 }
 
 #results-last-name {
-    width: 200px;
+    width: 300px;
     height: 100px;
     background-color: #121212;
     margin-left: 15px;

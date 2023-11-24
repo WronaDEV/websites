@@ -185,3 +185,14 @@ body {
     font-family: 'Roboto', sans-serif;
     color: white;
 }
+
+#results-nationality {
+    width: 300px;
+    height: 100px;
+    background-color: #121212;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}

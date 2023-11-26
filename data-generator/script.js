@@ -36,5 +36,5 @@ function GenerateData() {
     document.getElementById("generated-name").textContent = pl_m_name[Math.floor((Math.random()*pl_m_name.length))];
     document.getElementById("generated-last-name").textContent = pl_m_lname[Math.floor((Math.random()*pl_m_name.length))];
     document.getElementById("generated-age").textContent = Math.floor((Math.random()*99));
-    document.getElementById("generated-nickname").textContent = Math.floor((Math.random()*99));
+    document.getElementById("generated-nickname").textContent = document.getElementById("generated-name").textContent + " " + document.getElementById("generated-last-name").textContent;
 }
